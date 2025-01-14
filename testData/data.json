@@ -1,0 +1,11 @@
+{
+    "valid": {
+        "username": "tomsmith",
+        "password": "SuperSecretPassword!"
+    },
+    "invalid": {
+        "username": "tomsmith12345",
+        "password": "SuperSecretPassword!123456"
+    },
+    "url": "https://the-internet.herokuapp.com/login"
+}
