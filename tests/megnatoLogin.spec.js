@@ -2,7 +2,7 @@ import { test } from '@playwright/test';
 import cred from '../testData/testData.json' with {type:'json'};
 import MegnatoPage from '../pageObject/megnatoLogin.page';
 
-test.describe('Verifing Login with valid and invalid credentials`, async () => {
+test.describe(`Verifing Login with valid and invalid credentials`, async () => {
     test(`Megnato valid Cred`,{tag: ['@smoke']}, async ({ page }) => {
         let signinPage = new MegnatoPage(page);
         await signinPage.navigateToUrl(cred.url);
