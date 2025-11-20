@@ -1,10 +1,10 @@
-import { Page } from '@playwright/test';
+// import { Page } from '@playwright/test';
 
 class HerokuLogoutPage {
-    /**
-     * 
-     @param {Page} page
-     */
+    // /**
+    //  * 
+    //  @param {Page} page
+    //  */
     constructor(page) {
         this.page = page;
         this.Headertxt = page.locator(".example h2");
