@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import cred from '../testData/testData.json';
+import cred from '../testData/testData.json' with {type:'json'};
 import MegnatoPage from '../pageObject/megnatoLogin.page';
 
 test.describe('Verifing Login with valid and invalid credentials', async () => {
