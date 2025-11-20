@@ -1,10 +1,10 @@
-import { expect, Page } from '@playwright/test'
+// import { expect, Page } from '@playwright/test'
 
 class MegnatoPage {
-    /**
-     * 
-     @param {Page} page
-     */
+    // /**
+    //  * 
+    //  @param {Page} page
+    //  */
     constructor(page) {
         this.page = page;
         this.signinBtn = page.locator('li.authorization-link a')
