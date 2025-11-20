@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import Credencials from '../testData/data.json';
+import Credencials from '../testData/data.json' with {type: 'json'};
 import POManager from '../pageObject/POManager';
 
 test.describe.configure({mode:'parallel'})
